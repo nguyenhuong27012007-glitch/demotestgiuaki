@@ -1,0 +1,81 @@
+Mã GD,Ngày,Địa bàn,Cửa hàng,Mặt hàng,Số lượng,Doanh thu (VNĐ),Kênh bán,Trả hàng
+GD001,2024-01-15,Đà Nẵng,BHX Hải Châu,Gạo ST25 5kg,50,7500000,Cửa hàng,Không
+GD002,2024-01-15,Đà Nẵng,BHX Thanh Khê,Nước mắm Phú Quốc 500ml,120,3600000,Cửa hàng,Không
+GD003,2024-01-16,Hải Phòng,Aeon Mall HP,Bột giặt OMO 6kg,80,9600000,Cửa hàng,Không
+GD004,2024-01-16,Hải Phòng,GS25 Lạch Tray,Bánh mì sandwich,200,4000000,Cửa hàng,Không
+GD005,2024-01-17,Cần Thơ,MeKong Nông Sản 01,Xoài cát Hòa Lộc,300,15000000,Cửa hàng,Không
+GD006,2024-01-17,Cần Thơ,MeKong Nông Sản 03,Bưởi Năm Roi,150,6000000,TMĐT,Không
+GD007,2024-01-18,Bình Dương,IKEA-style BD 01,Kệ sách gỗ 5 tầng,15,11250000,Cửa hàng,Không
+GD008,2024-01-18,Bình Dương,F&B VSIP 05,Thịt bò Úc nhập khẩu,40,12000000,Cửa hàng,Không
+GD009,2024-01-19,Đà Nẵng,Co.op Mart ĐN,Sữa Vinamilk thùng 48 hộp,90,10800000,Cửa hàng,Không
+GD010,2024-01-19,Đà Nẵng,Thiên Hòa ĐN 02,Tivi Samsung 55 inch,5,49500000,Cửa hàng,Không
+GD011,2024-01-20,Hải Phòng,Pharmacity HP 03,Vitamin C DHC 90 ngày,200,6000000,Cửa hàng,Không
+GD012,2024-01-20,Hải Phòng,Kho vận cảng HP,Hàng container chuyển kho,10,50000000,Cửa hàng,Không
+GD013,2024-01-21,Cần Thơ,Vinatex CT,Áo sơ mi nam công sở,35,5250000,Cửa hàng,Không
+GD014,2024-01-21,Bình Dương,VLXD BD 02,Xi măng Hà Tiên 50kg,500,25000000,Cửa hàng,Không
+GD015,2024-01-22,Đà Nẵng,BHX Sơn Trà,Dầu ăn Tường An 5L,60,5400000,TMĐT,Không
+GD016,2024-01-22,Hải Phòng,GS25 Ngô Quyền,Cơm nắm onigiri,180,3600000,Cửa hàng,Không
+GD017,2024-01-23,Bình Dương,F&B VSIP 12,Rau sạch hữu cơ,100,3000000,Cửa hàng,Không
+GD018,2024-01-23,Cần Thơ,FMCG Phương Nam,Mì Hảo Hảo thùng 30 gói,200,6000000,Cửa hàng,Không
+GD019,2024-01-24,Đà Nẵng,Thiên Hòa ĐN 01,Máy giặt LG 9kg,8,31920000,Online,Không
+GD020,2024-01-24,Hải Phòng,Aeon Mall HP,Nước hoa Chanel No.5,12,36000000,Cửa hàng,Có
+GD021,2024-01-25,Bình Dương,IKEA-style BD 02,Bàn ăn gỗ sồi 6 người,6,18000000,Cửa hàng,Không
+GD022,2024-01-25,Cần Thơ,MeKong Nông Sản 05,Cá tra fillet đông lạnh,250,12500000,TMĐT,Không
+GD023,2024-01-26,Đà Nẵng,Co.op Mart ĐN,Bia Tiger thùng 24 lon,150,13500000,Cửa hàng,Không
+GD024,2024-01-26,Hải Phòng,Pharmacity HP 07,Thuốc ho Prospan,80,4800000,Cửa hàng,Không
+GD025,2024-01-27,Bình Dương,VLXD BD 04,Gạch ceramic 60x60,800,32000000,Cửa hàng,Không
+GD026,2024-01-27,Đà Nẵng,BHX Liên Chiểu,Trứng gà ta vỉ 10 quả,300,4500000,Cửa hàng,Không
+GD027,2024-01-28,Hải Phòng,GS25 Hồng Bàng,Sữa chua Vinamilk 4 hộp,250,3750000,Cửa hàng,Không
+GD028,2024-01-28,Cần Thơ,MeKong Nông Sản 02,Gạo Jasmine 10kg,180,9000000,Cửa hàng,Không
+GD029,2024-01-29,Bình Dương,F&B VSIP 08,Nước ép trái cây tươi,400,6000000,Cửa hàng,Không
+GD030,2024-01-29,Đà Nẵng,Thiên Hòa ĐN 03,Điều hòa Daikin 1.5HP,10,45000000,Online,Có
+GD031,2024-02-01,Hải Phòng,Aeon Mall HP,Bộ mỹ phẩm Laneige,25,12500000,Cửa hàng,Không
+GD032,2024-02-01,Cần Thơ,Vinatex CT,Quần jean nữ,50,5000000,TMĐT,Không
+GD033,2024-02-02,Bình Dương,IKEA-style BD 01,Đệm foam Everon Queen,20,30000000,Cửa hàng,Không
+GD034,2024-02-02,Đà Nẵng,BHX Ngũ Hành Sơn,Nước ngọt Coca Cola thùng,200,6000000,Cửa hàng,Không
+GD035,2024-02-03,Hải Phòng,Kho vận cảng HP,Linh kiện điện tử nhập khẩu,5,75000000,Cửa hàng,Không
+GD036,2024-02-03,Cần Thơ,FMCG Phương Nam,Dầu gội Sunsilk 650ml,300,9000000,Cửa hàng,Không
+GD037,2024-02-04,Bình Dương,VLXD BD 01,Sơn Dulux nội thất 18L,60,21000000,Cửa hàng,Không
+GD038,2024-02-04,Đà Nẵng,Co.op Mart ĐN,Thịt heo VietGAP,100,15000000,Cửa hàng,Không
+GD039,2024-02-05,Hải Phòng,GS25 Kiến An,Mì ly Modern lốc 6,150,2250000,Cửa hàng,Không
+GD040,2024-02-05,Hải Phòng,Pharmacity HP 01,Khẩu trang y tế hộp 50,500,5000000,TMĐT,Không
+GD041,2024-02-06,Bình Dương,F&B VSIP 15,Cà phê Trung Nguyên gói 500g,80,4800000,Cửa hàng,Không
+GD042,2024-02-06,Cần Thơ,MeKong Nông Sản 04,Tôm sú tươi sống,120,18000000,Cửa hàng,Không
+GD043,2024-02-07,Đà Nẵng,BHX Cẩm Lệ,Bỉm Huggies size L,80,8000000,Online,Không
+GD044,2024-02-07,Hải Phòng,Aeon Mall HP,Giày thể thao Nike,30,13500000,Cửa hàng,Có
+GD045,2024-02-08,Bình Dương,IKEA-style BD 03,Tủ quần áo 3 cánh,8,16000000,Cửa hàng,Không
+GD046,2024-02-08,Cần Thơ,MeKong Nông Sản 01,Dừa tươi Bến Tre,500,5000000,Cửa hàng,Không
+GD047,2024-02-09,Đà Nẵng,Thiên Hòa ĐN 02,Laptop Dell Inspiron 15,6,36000000,TMĐT,Không
+GD048,2024-02-09,Hải Phòng,GS25 Lê Chân,Kimbap cuộn hàn quốc,300,6000000,Cửa hàng,Không
+GD049,2024-02-10,Bình Dương,VLXD BD 03,Ống nước Bình Minh DN25,400,8000000,Cửa hàng,Không
+GD050,2024-02-10,Cần Thơ,Vinatex CT,Váy đầm nữ công sở,25,3750000,TMĐT,Có
+GD051,2024-02-11,Đà Nẵng,BHX Hải Châu,Muối iot Bạc Liêu 1kg,200,1000000,Cửa hàng,Không
+GD052,2024-02-11,Hải Phòng,Pharmacity HP 05,Kem chống nắng Anessa,60,9000000,Cửa hàng,Không
+GD053,2024-02-12,Bình Dương,F&B VSIP 03,Hải sản tươi sống tổng hợp,50,15000000,Cửa hàng,Không
+GD054,2024-02-12,Cần Thơ,FMCG Phương Nam,Bột ngọt Ajinomoto 1kg,250,5000000,Cửa hàng,Không
+GD055,2024-02-13,Đà Nẵng,Co.op Mart ĐN,Bánh kẹo Tết hộp quà,300,30000000,Cửa hàng,Không
+GD056,2024-02-13,Hải Phòng,Aeon Mall HP,Đồ chơi LEGO Star Wars,15,7500000,Cửa hàng,Không
+GD057,2024-02-14,Bình Dương,IKEA-style BD 02,Đèn trang trí Bắc Âu,30,4500000,Online,Không
+GD058,2024-02-14,Đà Nẵng,BHX Thanh Khê,Nước giặt Ariel 3.6kg,100,7000000,Cửa hàng,Không
+GD059,2024-02-15,Hải Phòng,GS25 Dương Kinh,Sandwich tam giác,250,5000000,Cửa hàng,Không
+GD060,2024-02-15,Cần Thơ,MeKong Nông Sản 03,Chôm chôm Vĩnh Long,400,6000000,Cửa hàng,Không
+GD061,2024-02-16,Bình Dương,VLXD BD 02,Thép Hòa Phát phi 10,200,16000000,Cửa hàng,Không
+GD062,2024-02-16,Đà Nẵng,Thiên Hòa ĐN 01,Máy lọc nước Kangaroo,12,14400000,Cửa hàng,Có
+GD063,2024-02-17,Hải Phòng,Kho vận cảng HP,Hàng xuất khẩu thủy sản,8,120000000,Cửa hàng,Không
+GD064,2024-02-17,Cần Thơ,MeKong Nông Sản 02,Sầu riêng Ri6,100,20000000,TMĐT,Không
+GD065,2024-02-18,Bình Dương,F&B VSIP 10,Gia vị nấu ăn tổng hợp,150,3000000,Cửa hàng,Không
+GD066,2024-02-18,Đà Nẵng,BHX Sơn Trà,Mì Gấu Đỏ thùng 30 gói,180,3600000,Cửa hàng,Không
+GD067,2024-02-19,Hải Phòng,Pharmacity HP 03,Sữa Ensure Gold 850g,40,8000000,TMĐT,Không
+GD068,2024-02-19,Bình Dương,IKEA-style BD 01,Sofa góc chữ L,4,24000000,Cửa hàng,Có
+GD069,2024-02-20,Cần Thơ,FMCG Phương Nam,Kem đánh răng P/S 240g,400,4000000,Cửa hàng,Không
+GD070,2024-02-20,Đà Nẵng,Co.op Mart ĐN,Cá hồi Na Uy fillet,30,9000000,Cửa hàng,Không
+GD071,2024-02-21,Hải Phòng,GS25 An Dương,Nước suối Aquafina 500ml,600,3000000,Cửa hàng,Không
+GD072,2024-02-21,Bình Dương,VLXD BD 04,Keo dán gạch Weber 25kg,300,9000000,Cửa hàng,Không
+GD073,2024-02-22,Cần Thơ,MeKong Nông Sản 05,Cá lóc đồng tươi,200,8000000,Cửa hàng,Không
+GD074,2024-02-22,Đà Nẵng,BHX Liên Chiểu,Đường Biên Hòa 1kg,250,2500000,Cửa hàng,Không
+GD075,2024-02-23,Hải Phòng,Aeon Mall HP,Bộ nồi inox 304 Fivestar,20,6000000,Cửa hàng,Không
+GD076,2024-02-23,Bình Dương,F&B VSIP 18,Gà ta nguyên con,80,8000000,Cửa hàng,Không
+GD077,2024-02-24,Cần Thơ,Vinatex CT,Khăn lụa tơ tằm,40,4000000,Online,Không
+GD078,2024-02-24,Đà Nẵng,Thiên Hòa ĐN 03,Máy hút bụi Dyson V15,3,14700000,TMĐT,Không
+GD079,2024-02-25,Hải Phòng,Pharmacity HP 07,Nước rửa tay Lifebuoy 500ml,300,4500000,Cửa hàng,Không
+GD080,2024-02-25,Bình Dương,IKEA-style BD 03,Gương trang trí tròn,25,3750000,Online,Có

@@ -1,0 +1,14 @@
+Địa bàn,Khách hàng,Loại hình,Quy mô (số cửa hàng),Nhu cầu WMS,Mức độ quan tâm (1-10),Yêu cầu hỗ trợ tại chỗ,Ghi chú,Thời điểm phản hồi
+Đà Nẵng,Chuỗi Bách Hóa Xanh miền Trung,Bách hóa tổng hợp,25,Quản lý tồn kho đa kho + dự báo,8,Có - cần đội kỹ thuật tại chỗ tuần đầu,Đang dùng Excel quản lý kho,2024-04
+Đà Nẵng,Siêu thị Co.op Mart Đà Nẵng,Siêu thị,5,Quản lý kho lạnh + FIFO,7,Không - có đội IT nội bộ,Quan tâm tích hợp POS hiện tại,2024-04
+Đà Nẵng,Chuỗi điện máy Thiên Hòa,Điện máy,8,Theo dõi serial number + bảo hành,6,Có - cần training on-site,Đang dùng phần mềm cũ muốn nâng cấp,2024-05
+Cần Thơ,Chuỗi nông sản sạch MeKong,Nông sản,12,Truy xuất nguồn gốc + quản lý hạn dùng,9,Có - cần hỗ trợ tại chỗ thường xuyên,Yêu cầu customize nhiều theo ngành nông sản,2024-03
+Cần Thơ,Siêu thị Vinatex Cần Thơ,Thời trang & bách hóa,3,Quản lý size/color + chuyển kho,5,Không,Quy mô nhỏ ngân sách hạn chế,2024-03
+Cần Thơ,Đại lý FMCG Phương Nam,Phân phối FMCG,1,Quản lý xuất nhập kho cơ bản,4,Không,Chỉ cần giải pháp đơn giản giá rẻ,2024-04
+Hải Phòng,Chuỗi siêu thị Aeon Mall Hải Phòng,Đại siêu thị,3,WMS full-stack + tích hợp ERP,9,Có - cần đội triển khai tại chỗ 2 tuần,Yêu cầu SLA 99.5% và hỗ trợ 24/7,2024-05
+Hải Phòng,Chuỗi cửa hàng tiện lợi GS25 HP,Tiện lợi,35,Quản lý hàng tươi sống + replenishment tự động,8,Có - cần hỗ trợ on-site liên tục do nhiều điểm bán,Yêu cầu phản hồi trong 2h khi sự cố,2024-05
+Hải Phòng,Kho vận cảng Hải Phòng,Logistics,2,WMS cho kho hàng lớn + cross-docking,9,Có - cần kỹ sư tại chỗ full-time,Kho 10000m2 yêu cầu kỹ thuật cao,2024-04
+Hải Phòng,Chuỗi dược phẩm Pharmacity HP,Dược phẩm,15,Quản lý hạn dùng + cold chain,7,Có - cần đào tạo + hỗ trợ tại chỗ,Tuân thủ quy định GDP dược phẩm,2024-05
+Bình Dương,Chuỗi nội thất IKEA-style BD,Nội thất,4,Quản lý kho cồng kềnh + giao hàng,8,Có - cần setup ban đầu 1 tuần,Kho lớn 5000m2 cần optimize layout,2024-04
+Bình Dương,KCN VSIP - Chuỗi F&B,F&B,20,Quản lý nguyên liệu + recipe tracking,7,Không - dùng cloud,Cluster 20 nhà hàng trong KCN,2024-05
+Bình Dương,Chuỗi vật liệu xây dựng BD,VLXD,6,Quản lý kho nặng + delivery routing,6,Có - cần hỗ trợ setup,Đã có hệ thống kho cũ cần migrate,2024-04
