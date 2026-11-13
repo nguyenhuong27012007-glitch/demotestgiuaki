@@ -360,7 +360,7 @@ if not st.session_state.api_key_set and DEFAULT_GEMINI_API_KEY:
 # ============================================================
 st.markdown(f"""
 <div class="hero-banner-tulip">
-    <div class="banner-line-1">🌸 Hưng Phát WMS — Đánh Giá Thị Trường Mở Rộng</div>
+    <div class="banner-line-1">🌸 Phân tích dữ liệu</div>
     <div class="banner-line-2">🍃 Quy trình 3 Bước thông minh: Nhập dữ liệu ➔ Làm sạch & Chỉnh sửa trực tiếp ➔ Phân tích & Xuất Báo cáo HTML</div>
 </div>
 """, unsafe_allow_html=True)
@@ -597,53 +597,6 @@ with st.sidebar:
                 st.error(msg)
                 
     st.divider()
-    st.markdown("#### 📦 Nạp Nhanh Dữ Liệu Mẫu")
-    if st.button("🌺 Nạp 6 File Dự Án Mẫu", use_container_width=True):
-        with st.spinner("⏳ Bước 1: Đang nạp 6 tệp dữ liệu mẫu vào hệ thống, vui lòng đợi..."):
-            sample_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sample_data")
-            if os.path.exists(sample_dir):
-                count = 0
-                for f_name in os.listdir(sample_dir):
-                    if f_name.endswith(".csv"):
-                        f_path = os.path.join(sample_dir, f_name)
-                        with open(f_path, "rb") as f:
-                            success, _ = orch.load_file(f.read(), f_name)
-                            if success and f_name not in st.session_state.files_loaded:
-                                st.session_state.files_loaded.append(f_name)
-                                count += 1
-                st.success(f"🌷 Đã nạp {count} file mẫu thành công!")
-        set_spinner_msg("⏳ Bước 1: Đang cập nhật danh sách 6 tệp dữ liệu mẫu...")
-        st.rerun()
-
-    if st.button("⚡ Test File Lớn 25.000 Dòng (Excel/CSV)", use_container_width=True):
-        with st.spinner("⏳ Bước 1: Đang khởi tạo & nạp bảng dữ liệu 25.000 dòng, vui lòng đợi..."):
-            import numpy as np
-            np.random.seed(42)
-            n_rows = 25000
-            regions = np.random.choice(["Đà Nẵng", "Cần Thơ", "Hải Phòng", "Bình Dương"], size=n_rows, p=[0.3, 0.25, 0.25, 0.2])
-            stores = np.random.randint(5, 120, size=n_rows)
-            revenue = np.round(np.random.uniform(1.5, 85.0, size=n_rows), 2)
-            orders = np.random.randint(100, 5000, size=n_rows)
-            sla_hours = np.random.choice([2, 4, 8, 12, 24], size=n_rows)
-            df_big = pd.DataFrame({
-                "Mã Giao Dịch": [f"TXN-{i:06d}" for i in range(1, n_rows + 1)],
-                "Địa Bàn": regions,
-                "Số Cửa Hàng Chuỗi": stores,
-                "Doanh Thu (Tỷ VNĐ)": revenue,
-                "Số Đơn Hàng Kho/Tháng": orders,
-                "Yêu Cầu SLA (Giờ)": sla_hours
-            })
-            buf = io.BytesIO()
-            df_big.to_csv(buf, index=False, encoding="utf-8-sig")
-            success, msg = orch.load_file(buf.getvalue(), "nhat_ky_25000_dong.csv")
-            st.session_state.file_messages.append({"file": "nhat_ky_25000_dong.csv", "success": success, "msg": msg})
-            if success and "nhat_ky_25000_dong.csv" not in st.session_state.files_loaded:
-                st.session_state.files_loaded.append("nhat_ky_25000_dong.csv")
-            st.success("🚀 Đã nạp thành công 25.000 dòng!")
-            set_spinner_msg("⏳ Bước 1: Đang tổng hợp nhanh bảng dữ liệu lớn 25.000 dòng...")
-            st.rerun()
-
-    st.divider()
     st.markdown("#### 🤖 Chọn Phiên Bản Model AI")
     ai_model_options = {
         "gemini-3.1-pro": "🚀 Gemini 3.1 Pro (Recommended)",
@@ -703,17 +656,17 @@ try:
                 import time
                 time.sleep(0.15)
             st.session_state.pending_spinner_msg = ""
-        st.markdown("### 📥 Bước 1: Tiếp Nhận & Kiểm Tra Định Dạng File (Hỗ trợ Dữ Liệu Lớn 20.000+ Dòng)")
-        st.caption("⚡ Chấp nhận file Excel (.xlsx, .xls), CSV (.csv) hoặc Google Sheet công khai với quy mô 20.000+ dòng. Hệ thống tự động xử lý song song và bảo vệ bộ nhớ không bị treo.")
+        st.markdown("### 📥 Bước 1: Tiếp Nhận & Kiểm Tra Định Dạng File")
     
         col_up1, col_up2 = st.columns([1, 1])
     
         with col_up1:
-            st.markdown("##### 📁 Tải tệp lên máy (.csv / .xlsx — Hỗ trợ 20.000+ dòng)")
+            st.markdown("##### 📁 Tải tệp lên")
             uploaded_files = st.file_uploader(
-                "Chọn các file dữ liệu thị trường (Không giới hạn số dòng):",
+                "Tải tệp lên",
                 type=["csv", "xlsx", "xls"],
-                accept_multiple_files=True
+                accept_multiple_files=True,
+                label_visibility="collapsed"
             )
             if uploaded_files and st.button("🌸 Xác thực & Nạp tệp", use_container_width=True):
                 with st.spinner("⏳ Bước 1: Đang đọc và kiểm tra cấu trúc tệp dữ liệu, vui lòng đợi..."):
@@ -730,8 +683,9 @@ try:
             st.markdown("##### 🔗 Dán link Google Sheet công khai")
             with st.container(key="step1_gsheet_box"):
                 sheet_url = st.text_input(
-                    "Liên kết Google Sheet:",
-                    placeholder="https://docs.google.com/spreadsheets/d/.../edit"
+                    "Liên kết Google Sheet",
+                    placeholder="https://docs.google.com/spreadsheets/d/.../edit",
+                    label_visibility="collapsed"
                 )
             if sheet_url and st.button("🍃 Đọc Google Sheet", use_container_width=True):
                 with st.spinner("⏳ Bước 1: Đang kết nối và đọc dữ liệu từ Google Sheet, vui lòng đợi..."):
